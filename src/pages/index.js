@@ -1,9 +1,11 @@
 import React from "react";
-import { Container } from '../components/Container';
+import { Container, FeatureImage} from '../components';
 
 const IndexPage = () => {
     return (
-        <Container></Container>
+        <Container>
+            <FeatureImage/>
+        </Container>
     );
 };
 
